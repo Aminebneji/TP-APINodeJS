@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "watch": "tsc --watch",
+    "watch": "ts-node ./src/app.ts",
     "dev": "concurrently \"tsc --watch\" \"tsnd --respawn src/app.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

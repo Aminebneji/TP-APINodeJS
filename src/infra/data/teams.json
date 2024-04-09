@@ -1,0 +1,115 @@
+{
+  "team": [
+    {
+      "name": "Fnatic",
+      "players": [
+        {"pseudo": "Boaster"},
+        {"pseudo": "Alfajer"},
+        {"pseudo": "Derke"},
+        {"pseudo": "Leo"},
+        {"pseudo": "Chronicle"}
+      ]
+    },
+    {
+      "name": "Gentle Mates",
+      "players": [
+        {"pseudo": "beyAz"},
+        {"pseudo": "logaN"},
+        {"pseudo": "nataNk"},
+        {"pseudo": "TakaS"},
+        {"pseudo": "Wailers"}
+      ]
+    },
+    {
+      "name": "Team Liquid",
+      "players": [
+        {"pseudo": "Jamppi"},
+        {"pseudo": "nAts"},
+        {"pseudo": "Enzo"},
+        {"pseudo": "Mistic"},
+        {"pseudo": "Keiko"}
+      ]
+    },
+    {
+      "name": "Vitality",
+      "players": [
+        {"pseudo": "ceNder"},
+        {"pseudo": "runneR"},
+        {"pseudo": "Kicks"},
+        {"pseudo": "Sayf"},
+        {"pseudo": "trexx"}
+      ]
+    },
+    {
+      "name": "Karmine Corp",
+      "players": [
+        {"pseudo": "MAGNUM"},
+        {"pseudo": "tomaszy"},
+        {"pseudo": "N4RRATE"},
+        {"pseudo": "marteen"},
+        {"pseudo": "sh1n"}
+      ]
+    },
+    {
+      "name": "GIANTX",
+      "players": [
+        {"pseudo": "Fit1nho"},
+        {"pseudo": "hoody"},
+        {"pseudo": "Cloud"},
+        {"pseudo": "Redgar"},
+        {"pseudo": "purp0"}
+      ]
+    },
+    {
+      "name": "Team Heretics",
+      "players": [
+        {"pseudo": "Boo"},
+        {"pseudo": "benjyfishy"},
+        {"pseudo": "RieNs"},
+        {"pseudo": "MiniBoo"},
+        {"pseudo": "Wo0t"},
+        {"pseudo": "paTiTek"}
+      ]
+    },
+    {
+      "name": "Natus Vincere",
+      "players": [
+        {"pseudo": "ANGE1"},
+        {"pseudo": "Zyppan"},
+        {"pseudo": "SUYGETSU"},
+        {"pseudo": "Shao"},
+        {"pseudo": "ardiis"}
+      ]
+    },
+    {
+      "name": "FUT Esports",
+      "players": [
+        {"pseudo": "MrFaliN"},
+        {"pseudo": "qRaxs"},
+        {"pseudo": "ATA KAPTAN"},
+        {"pseudo": "cNed"},
+        {"pseudo": "yetujey"}
+      ]
+    },
+    {
+      "name": "Movistar KOI",
+      "players": [
+        {"pseudo": "Sheydos"},
+        {"pseudo": "starxo"},
+        {"pseudo": "GRUBINHO"},
+        {"pseudo": "kamo"},
+        {"pseudo": "ShadoW"}
+      ]
+    },
+    {
+      "name": "BBL Esports",
+      "players": [
+        {"pseudo": "QutionerX"},
+        {"pseudo": "Brave"},
+        {"pseudo": "Elite"},
+        {"pseudo": "pAura"},
+        {"pseudo": "reazy"}
+      ]
+    }
+  ]
+}
