@@ -1,5 +1,4 @@
-{
-  "team": [
+   [
     {
       "name": "Fnatic",
       "players": [
@@ -110,6 +109,15 @@
         {"pseudo": "pAura"},
         {"pseudo": "reazy"}
       ]
+    },
+    {
+      "name": "Sentinels",
+      "players": [
+        {"pseudo": "TenZ"},
+        {"pseudo": "zekken"},
+        {"pseudo": "johnqt"},
+        {"pseudo": "Sacy"},
+        {"pseudo": "Zellsis"}
+      ]
     }
   ]
-}

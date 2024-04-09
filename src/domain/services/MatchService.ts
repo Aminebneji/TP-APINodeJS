@@ -13,6 +13,6 @@ export class MatchService{
     }
 
     getMatchByScore(score:string):Match[] | undefined{
-        return this.getMatchByScore(score);
+        return this.matchRepository.getMatchByScore(score);
     }
 }

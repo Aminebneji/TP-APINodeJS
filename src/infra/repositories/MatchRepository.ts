@@ -12,7 +12,7 @@ export class MatchRepository{
 
     getMatchByScore(wantedScore: string): Match[] {
         const matchs = this.getAllMatchs();
-        const findedMatchs = matchs.filter(match => match.score === wantedScore);
+        const findedMatchs = matchs.filter((match) => match.score === wantedScore);
 
         if (findedMatchs.length === 0) {
             throw new Error(`No match found with score: ${wantedScore}`);

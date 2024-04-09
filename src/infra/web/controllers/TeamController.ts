@@ -17,20 +17,15 @@ export const getAllTeams = (req: Request, res: Response)=> {
 
 export const getTeamByName = (req: Request, res: Response) => {
     const requestedName = req.params.name;
+    console.log(requestedName);
     const teams = teamService.getTeamByName(requestedName);
-
-    if (!teams || teams.name !== requestedName) {
-        return res.status(404).json({
-            statusCode: 404,
-            message: `Aucune équipe trouvée avec le pseudo "${requestedName}".`
+    if(!teams){
+        response(res, { statusCode: 404, message: 'Post not found' });
+    } else {
+        response(res, {
+            statusCode: 200,
+            message: 'OK',
+            data: teams
         });
     }
-
-    console.log(teams);
-
-    response(res, {
-        statusCode: 200,
-        message: 'OK',
-        data: teams
-    });
 }

@@ -8,13 +8,15 @@ export class TeamsRepository{
 constructor() {
     this.teams = this.loadTeams();
 }
-    getTeamByName(name: string):Team | undefined {
-        return this.teams.find(teams => teams.name === name);
-    }
 
     getAllTeams(): Team[]{
         const data:string = fs.readFileSync(this.dataFilePath, 'utf-8');
         return JSON.parse(data);
+    }
+
+    getTeamByName(name: string) {
+        console.log(this.teams);
+        return this.teams.find((team :Team) => team.name === name);
     }
 
     private loadTeams(): Team[] {
