@@ -1,0 +1,37 @@
+[
+  {
+    "id": "8c5af2de-9ed0-4f80-b46e-2b6657491f61",
+    "firstname": "John",
+    "lastname": "Doe",
+    "pseudo": "johny",
+    "password": "john123"
+  },
+  {
+    "id": "7e23b6ac-d2ab-4a65-92e0-83c08065065d",
+    "firstname": "Alice",
+    "lastname": "Smith",
+    "pseudo": "alices",
+    "password": "alice456"
+  },
+  {
+    "id": "c6bcf31d-5c1f-4f24-bd91-fb99ecba859f",
+    "firstname": "Bob",
+    "lastname": "Johnson",
+    "pseudo": "bobj",
+    "password": "bob789"
+  },
+  {
+    "id": "9f2147b1-3d2d-4b81-9141-58b64a4a150f",
+    "firstname": "Emma",
+    "lastname": "Brown",
+    "pseudo": "emmab",
+    "password": "emma321"
+  },
+  {
+    "id": "e9fcde56-10d3-499a-b80b-84b7b3f28b39",
+    "firstname": "Michael",
+    "lastname": "Wilson",
+    "pseudo": "michaelw",
+    "password": "michael654"
+  }
+]

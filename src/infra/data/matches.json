@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a251e2b8-2a37-48c6-af72-19f2e60e1a1a",
+    "equipe1": "Fnatic",
+    "equipe2": "Gentle Mates",
+    "score": "13-9",
+    "date": "2024-04-10",
+    "map": "HAVEN"
+  },
+  {
+    "id": "0c3fb50a-d343-4a11-b4cb-34c44a4b25f9",
+    "equipe1": "Team Liquid",
+    "equipe2": "Vitality",
+    "score": "10-13",
+    "date": "2024-04-11",
+    "map": "BIND"
+  },
+  {
+    "id": "7e64bc1f-d2f7-4b43-94a6-08b0dab22d6d",
+    "equipe1": "Karmine Corp",
+    "equipe2": "GIANTX",
+    "score": "13-6",
+    "date": "2024-04-12",
+    "map": "SPLIT"
+  },
+  {
+    "id": "1e2bb733-1219-4cb0-a1bf-c5311f8a7d87",
+    "equipe1": "Team Heretics",
+    "equipe2": "Natus Vincere",
+    "score": "13-11",
+    "date": "2024-04-13",
+    "map": "ASCENT"
+  },
+  {
+    "id": "c47c1ee1-af28-4576-8f90-c2b67f1518ec",
+    "equipe1": "FUT Esports",
+    "equipe2": "Movistar KOI",
+    "score": "7-13",
+    "date": "2024-04-14",
+    "map": "ICEBOX"
+  },
+  {
+    "id": "cfd5038d-c8e3-437e-871a-1471053e8b5b",
+    "equipe1": "BBL Esports",
+    "equipe2": "Fnatic",
+    "score": "11-13",
+    "date": "2024-04-15",
+    "map": "FRACTURE"
+  },
+  {
+    "id": "e5b64c52-d23c-4d1f-bf58-328a6972b2ff",
+    "equipe1": "Gentle Mates",
+    "equipe2": "Karmine Corp",
+    "score": "8-13",
+    "date": "2024-04-16",
+    "map": "PEARL"
+  },
+  {
+    "id": "c0267e39-d7fb-42a1-8c7c-fb0bf183c5b7",
+    "equipe1": "GIANTX",
+    "equipe2": "Team Liquid",
+    "score": "13-10",
+    "date": "2024-04-17",
+    "map": "LOTUS"
+  },
+  {
+    "id": "4b62068b-2b7a-45d1-b4a4-01854818a78a",
+    "equipe1": "Vitality",
+    "equipe2": "Team Heretics",
+    "score": "13-7",
+    "date": "2024-04-18",
+    "map": "BIND"
+  },
+  {
+    "id": "cbb00f6e-5e2d-4e01-8f90-8d35894397b7",
+    "equipe1": "Natus Vincere",
+    "equipe2": "FUT Esports",
+    "score": "13-5",
+    "date": "2024-04-19",
+    "map": "HAVEN"
+  }
+]

@@ -1,123 +1,135 @@
-   [
-    {
-      "name": "Fnatic",
-      "players": [
-        {"pseudo": "Boaster"},
-        {"pseudo": "Alfajer"},
-        {"pseudo": "Derke"},
-        {"pseudo": "Leo"},
-        {"pseudo": "Chronicle"}
-      ]
-    },
-    {
-      "name": "Gentle Mates",
-      "players": [
-        {"pseudo": "beyAz"},
-        {"pseudo": "logaN"},
-        {"pseudo": "nataNk"},
-        {"pseudo": "TakaS"},
-        {"pseudo": "Wailers"}
-      ]
-    },
-    {
-      "name": "Team Liquid",
-      "players": [
-        {"pseudo": "Jamppi"},
-        {"pseudo": "nAts"},
-        {"pseudo": "Enzo"},
-        {"pseudo": "Mistic"},
-        {"pseudo": "Keiko"}
-      ]
-    },
-    {
-      "name": "Vitality",
-      "players": [
-        {"pseudo": "ceNder"},
-        {"pseudo": "runneR"},
-        {"pseudo": "Kicks"},
-        {"pseudo": "Sayf"},
-        {"pseudo": "trexx"}
-      ]
-    },
-    {
-      "name": "Karmine Corp",
-      "players": [
-        {"pseudo": "MAGNUM"},
-        {"pseudo": "tomaszy"},
-        {"pseudo": "N4RRATE"},
-        {"pseudo": "marteen"},
-        {"pseudo": "sh1n"}
-      ]
-    },
-    {
-      "name": "GIANTX",
-      "players": [
-        {"pseudo": "Fit1nho"},
-        {"pseudo": "hoody"},
-        {"pseudo": "Cloud"},
-        {"pseudo": "Redgar"},
-        {"pseudo": "purp0"}
-      ]
-    },
-    {
-      "name": "Team Heretics",
-      "players": [
-        {"pseudo": "Boo"},
-        {"pseudo": "benjyfishy"},
-        {"pseudo": "RieNs"},
-        {"pseudo": "MiniBoo"},
-        {"pseudo": "Wo0t"},
-        {"pseudo": "paTiTek"}
-      ]
-    },
-    {
-      "name": "Natus Vincere",
-      "players": [
-        {"pseudo": "ANGE1"},
-        {"pseudo": "Zyppan"},
-        {"pseudo": "SUYGETSU"},
-        {"pseudo": "Shao"},
-        {"pseudo": "ardiis"}
-      ]
-    },
-    {
-      "name": "FUT Esports",
-      "players": [
-        {"pseudo": "MrFaliN"},
-        {"pseudo": "qRaxs"},
-        {"pseudo": "ATA KAPTAN"},
-        {"pseudo": "cNed"},
-        {"pseudo": "yetujey"}
-      ]
-    },
-    {
-      "name": "Movistar KOI",
-      "players": [
-        {"pseudo": "Sheydos"},
-        {"pseudo": "starxo"},
-        {"pseudo": "GRUBINHO"},
-        {"pseudo": "kamo"},
-        {"pseudo": "ShadoW"}
-      ]
-    },
-    {
-      "name": "BBL Esports",
-      "players": [
-        {"pseudo": "QutionerX"},
-        {"pseudo": "Brave"},
-        {"pseudo": "Elite"},
-        {"pseudo": "pAura"},
-        {"pseudo": "reazy"}
-      ]
-    },
-    {
-      "name": "Sentinels",
-      "players": [
-        {"pseudo": "TenZ"},
-        {"pseudo": "zekken"},
-        {"pseudo": "johnqt"},
-        {"pseudo": "Sacy"},
-        {"pseudo": "Zellsis"}
-      ]
-    }
-  ]
+[
+  {
+    "id": "57abfc42-1b97-4f6e-97f1-b8ac54a2496a",
+    "name": "Fnatic",
+    "players": [
+      {"pseudo": "Boaster"},
+      {"pseudo": "Alfajer"},
+      {"pseudo": "Derke"},
+      {"pseudo": "Leo"},
+      {"pseudo": "Chronicle"}
+    ]
+  },
+  {
+    "id": "c54b3d84-c8df-4767-8394-0510c45e1d3f",
+    "name": "Gentle Mates",
+    "players": [
+      {"pseudo": "beyAz"},
+      {"pseudo": "logaN"},
+      {"pseudo": "nataNk"},
+      {"pseudo": "TakaS"},
+      {"pseudo": "Wailers"}
+    ]
+  },
+  {
+    "id": "e61cb71b-0b7f-48e4-8b70-492f14d6812d",
+    "name": "Team Liquid",
+    "players": [
+      {"pseudo": "Jamppi"},
+      {"pseudo": "nAts"},
+      {"pseudo": "Enzo"},
+      {"pseudo": "Mistic"},
+      {"pseudo": "Keiko"}
+    ]
+  },
+  {
+    "id": "20290d9f-11f2-4f81-b8a7-25f2fd58b3a2",
+    "name": "Vitality",
+    "players": [
+      {"pseudo": "ceNder"},
+      {"pseudo": "runneR"},
+      {"pseudo": "Kicks"},
+      {"pseudo": "Sayf"},
+      {"pseudo": "trexx"}
+    ]
+  },
+  {
+    "id": "7e06e74a-9dc7-4c52-a68e-335aa9c65d0d",
+    "name": "Karmine Corp",
+    "players": [
+      {"pseudo": "MAGNUM"},
+      {"pseudo": "tomaszy"},
+      {"pseudo": "N4RRATE"},
+      {"pseudo": "marteen"},
+      {"pseudo": "sh1n"}
+    ]
+  },
+  {
+    "id": "cc3f14bc-37d7-4e0a-b087-ae10b1f0f221",
+    "name": "GIANTX",
+    "players": [
+      {"pseudo": "Fit1nho"},
+      {"pseudo": "hoody"},
+      {"pseudo": "Cloud"},
+      {"pseudo": "Redgar"},
+      {"pseudo": "purp0"}
+    ]
+  },
+  {
+    "id": "a9ac4437-7a48-4d6f-bdcb-820f4a4a53b2",
+    "name": "Team Heretics",
+    "players": [
+      {"pseudo": "Boo"},
+      {"pseudo": "benjyfishy"},
+      {"pseudo": "RieNs"},
+      {"pseudo": "MiniBoo"},
+      {"pseudo": "Wo0t"},
+      {"pseudo": "paTiTek"}
+    ]
+  },
+  {
+    "id": "3a0fdcd7-b748-4b5d-9b4b-b48070ee60e8",
+    "name": "Natus Vincere",
+    "players": [
+      {"pseudo": "ANGE1"},
+      {"pseudo": "Zyppan"},
+      {"pseudo": "SUYGETSU"},
+      {"pseudo": "Shao"},
+      {"pseudo": "ardiis"}
+    ]
+  },
+  {
+    "id": "c768a3e5-0735-4b15-95fb-3a44b5db29e1",
+    "name": "FUT Esports",
+    "players": [
+      {"pseudo": "MrFaliN"},
+      {"pseudo": "qRaxs"},
+      {"pseudo": "ATA KAPTAN"},
+      {"pseudo": "cNed"},
+      {"pseudo": "yetujey"}
+    ]
+  },
+  {
+    "id": "65773b9f-5f7b-47a6-b477-84c56dc2436b",
+    "name": "Movistar KOI",
+    "players": [
+      {"pseudo": "Sheydos"},
+      {"pseudo": "starxo"},
+      {"pseudo": "GRUBINHO"},
+      {"pseudo": "kamo"},
+      {"pseudo": "ShadoW"}
+    ]
+  },
+  {
+    "id": "5cbeefbe-3900-4e15-a663-6b0841f8088a",
+    "name": "BBL Esports",
+    "players": [
+      {"pseudo": "QutionerX"},
+      {"pseudo": "Brave"},
+      {"pseudo": "Elite"},
+      {"pseudo": "pAura"},
+      {"pseudo": "reazy"}
+    ]
+  },
+  {
+    "id": "417e1e82-7c1e-4f9d-b66d-345d69722f05",
+    "name": "Sentinels",
+    "players": [
+      {"pseudo": "TenZ"},
+      {"pseudo": "zekken"},
+      {"pseudo": "johnqt"},
+      {"pseudo": "Sacy"},
+      {"pseudo": "Zellsis"}
+    ]
+  }
+]

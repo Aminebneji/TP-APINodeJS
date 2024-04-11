@@ -6,21 +6,24 @@ const teamService = new TeamService();
 
 export const getAllTeams = (req: Request, res: Response)=> {
     const teams = teamService.getAllTeams();
-    console.log(teams);
+    //console.log(teams);
     // ou console.table(teams);
-    response(res, {
-        statusCode:200,
-        message: 'OK',
-        data: teams
-    })
+    if (!teams) {
+        response(res, { statusCode: 404, message: 'Team not found' });
+    } else {
+        response(res, {
+            statusCode: 200,
+            message: 'OK',
+            data: teams
+        })
+    }
 }
-
 export const getTeamByName = (req: Request, res: Response) => {
     const requestedName = req.params.name;
-    console.log(requestedName);
+    //console.log(requestedName);
     const teams = teamService.getTeamByName(requestedName);
     if(!teams){
-        response(res, { statusCode: 404, message: 'Post not found' });
+        response(res, { statusCode: 404, message: 'Team not found' });
     } else {
         response(res, {
             statusCode: 200,
@@ -29,3 +32,19 @@ export const getTeamByName = (req: Request, res: Response) => {
         });
     }
 }
+
+    export const getMatchesByTeam = (req: Request, res:Response) => {
+        const requestedTeamName: string = req.params.name;
+        console.log(requestedTeamName)
+        const matchs = teamService.getMatchesByTeam(requestedTeamName);
+
+        if (!matchs) {
+            response(res, {statusCode: 404, message: 'Match not found'});
+        } else {
+            response(res, {
+                statusCode: 200,
+                message: 'OK',
+                data: matchs
+            });
+        }
+    }

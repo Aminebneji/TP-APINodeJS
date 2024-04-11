@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1a60c2c0-0bc5-4644-af5d-d70f03ac80b1",
+    "userId": "8c5af2de-9ed0-4f80-b46e-2b6657491f61",
+    "teams": [
+      "Fnatic",
+      "Team Liquid",
+      "Karmine Corp"
+    ],
+    "matches": []
+  },
+  {
+    "id": "93710e42-d4d2-4c5a-91f5-029f0719e5f7",
+    "userId": "7e23b6ac-d2ab-4a65-92e0-83c08065065d",
+    "teams": [
+      "Gentle Mates",
+      "Vitality",
+      "GIANTX"
+    ],
+    "matches": []
+  },
+  {
+    "id": "5d3a3eae-6899-4a58-bd44-c1a63433562b",
+    "userId": "c6bcf31d-5c1f-4f24-bd91-fb99ecba859f",
+    "teams": [
+      "Team Liquid",
+      "FUT Esports",
+      "BBL Esports"
+    ],
+    "matches": []
+  },
+  {
+    "id": "fb4abef1-60d2-4377-a5b3-b6e9c0488e6b",
+    "userId": "9f2147b1-3d2d-4b81-9141-58b64a4a150f",
+    "teams": [
+      "Natus Vincere",
+      "Movistar KOI",
+      "Sentinels"
+    ],
+    "matches": []
+  },
+  {
+    "id": "88e86b8b-8d07-4988-9b53-58a3c161e55d",
+    "userId": "e9fcde56-10d3-499a-b80b-84b7b3f28b39",
+    "teams": [
+      "Fnatic",
+      "Vitality",
+      "Team Heretics"
+    ],
+    "matches": []
+  },
+  {
+    "id": "fab6f6c9-749f-476b-9cb6-5aeb636857c2"
+  }
+]
