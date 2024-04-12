@@ -12,6 +12,14 @@ export class FollowedTeamService {
         return this.followedTeamRepository.getAllFollowedTeams();
     }
 
+    getFollowedTeamById(id:string):FollowedTeam | undefined {
+        return this.followedTeamRepository.getFollowedTeamById(id);
+    }
+
+    getFollowedTeamByUserId(userId:string):FollowedTeam | undefined{
+        return this.followedTeamRepository.getFollowedTeamByUserId(userId);
+    }
+
 
     addFollowedTeam(followedTeam: FollowedTeam) {
         const followedTeams = this.followedTeamRepository.getAllFollowedTeams();

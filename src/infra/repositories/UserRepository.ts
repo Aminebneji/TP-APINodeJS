@@ -3,6 +3,10 @@ import fs from 'fs';
 import path from "path";
 import crypto from 'crypto';
 
+/**
+ * Repository qui gère le CRUD des Utilisateurs
+ */
+
 export class UserRepository {
     private filePath = path.join(__dirname, '..', 'data', 'users.json');
 
@@ -20,6 +24,12 @@ export class UserRepository {
     getUserByNames(firstName: string, lastName: string) {
         const users = this.getAllUsers();
         return users.find(user => user.firstname === firstName && user.lastname === lastName);
+    }
+
+    getUserById(id: string,) {
+        const users = this.getAllUsers();
+        const user = users.find(user => user.id === id );
+        return user?.id;
     }
 
     createUser(user: User) {

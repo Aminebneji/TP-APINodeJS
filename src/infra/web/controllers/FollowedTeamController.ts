@@ -15,8 +15,30 @@ export const getAllFollowedTeam = (req: Request, res: Response)=> {
         response(res, {
             statusCode: 200,
             message: 'OK',
-            data: followedTeams ,
+            data: followedTeams
         })
+    }
+}
+
+export const getFollowedTeamById = (req: Request, res: Response) => {
+    const followedTeamId = req.params.id;
+    const followedTeam = followedTeamService.getFollowedTeamById(followedTeamId);
+    console.table(followedTeam);
+    if (!followedTeam) {
+        response(res, { statusCode: 404, message: 'Team not found' });
+    } else {
+        response(res, { statusCode: 200, message: 'OK', data: followedTeam });
+    }
+}
+
+export const getFollowedTeamByUserId = (req:Request, res: Response) => {
+    const userId = req.params.userId;
+    const followedTeam = followedTeamService.getFollowedTeamByUserId(userId);
+
+    if(!userId || !followedTeam){
+        response(res, { statusCode: 404, message: 'Team or User not found' });
+    } else {
+        response(res, { statusCode: 200, message: 'OK de dingue', data: followedTeam });
     }
 }
 

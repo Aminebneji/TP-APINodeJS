@@ -37,6 +37,7 @@ export const getMatchsByScore = (req: Request, res: Response) => {
 
 export const getMatchesByTeamName = (req: Request, res:Response) => {
     const matchs = matchService.getMatchByTeamName(req.params.name);
+    console.log(matchs)
 
     if (!matchs) {
         response(res, {statusCode: 404, message: 'Match not found'});

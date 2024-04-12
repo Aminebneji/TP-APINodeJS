@@ -8,7 +8,7 @@ const router = express.Router();
 
 router.use('/teams', teamRoutes);
 router.use('/matches', matchRoutes);
-router.use('/users', userRoutes);
 router.use('/followedTeams', followedTeamRoutes);
+router.use('/users', userRoutes);
 
 export default router;

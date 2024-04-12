@@ -3,6 +3,6 @@ import { Team } from "./Team";
 
 export interface FollowedTeam {
     id?:string;
-    userId?: User["id"];
+    userId?: User[];
     teams?: Team[];
 }

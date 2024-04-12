@@ -4,6 +4,12 @@ import {response} from "../../../utils/response";
 
 const teamService = new TeamService();
 
+/**
+ * afficher à l'écran l'ensemble des Equipes
+ * @param req - requête http gérée via  express
+ * @param res - reponse http gérée par express
+ * @route /teams/
+ */
 export const getAllTeams = (req: Request, res: Response)=> {
     const teams = teamService.getAllTeams();
     //console.log(teams);

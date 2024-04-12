@@ -1,0 +1,44 @@
+openapi: 3.0.0
+info:
+  title: TP de Fin de Semaine
+  description: Cette API permet de suivre une compétition Esport.
+  version: "1.0.0"
+servers:
+  - url: http://localhost:8000
+paths:
+  /teams:
+    get:
+      summary: Récupérer la liste des équipes
+      description: Retourne la liste de toutes les équipes participant à la compétition Esport.
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                      description: Identifiant unique de l'équipe.
+                    name:
+                      type: string
+                      description: Nom de l'équipe.
+                    players:
+                      type: array
+                      items:
+                        type: string
+                      description: Liste des noms des joueurs dans l'équipe.
+              example:
+                - id: 1
+                  name: "Team A"
+                  players:
+                    - "Joueur1"
+                    - "Joueur2"
+                - id: 2
+                  name: "Team B"
+                  players:
+                    - "Joueur3"
+                    - "Joueur4"

@@ -7,6 +7,6 @@ const router = express.Router();
 // GET localhost:8000/comments/:id
 router.get('/', getAllMatchs); // GET /matches
 router.get(`/:score`, getMatchsByScore); // GET /matches/score
-router.get('/:name', getMatchesByTeamName) // je n'arrive pas a toucher la data d'ici
+router.get('/team/:name', getMatchesByTeamName) //GET /team/:name
 
 export default router;
